@@ -1,0 +1,54 @@
+.chatInput{
+    border-radius: 20px;
+}
+.chatInput > form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    position: fixed !important;
+    bottom: 0px !important;
+    align-items: center;
+}
+.chatInput > input {
+    position: sticky;
+    bottom: 50px;
+    width: 60px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.form{
+    position: fixed;
+
+display: flex;
+    width: 70% !important;
+    border: 1px solid gray !important;
+    border-radius: 3px !important;
+    padding: 20px !important;
+ justify-content: center !important;
+ left: 13%;
+ bottom: 1%;
+}
+.chatInput > form > button {
+    display: none;
+    background-color: var(--slack-color);
+    color: #fff;
+    padding: 20px;
+    border: none;
+}
+
+button:hover{
+    background-color: #49274e !important;
+    cursor: pointer !important;
+}
+@media only screen and (max-width: 600px){
+    .form{
+   display:grid;
+        width: 70% !important;
+        left: 70px;
+        bottom: 0% !important;
+    }
+
+    
+}
